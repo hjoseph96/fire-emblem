@@ -1,0 +1,178 @@
+1.8.0.0:
+Unity tool:
+- Added Unity 2017.2 and Unity 2017.3 support.
+- Parsing improvements for Unity extensions assemblies.
+- Multithreaded documentation generation routine.
+- Fix administrator rights access on macOS Sierra and newer.
+- Bumped minimal Unity version to 5.4.0.
+
+1.7.3.0:
+Visual Studio extension:
+- Fixed an issue leading to Unity Scripting Reference window not working correctly with Unity 2017.1 and newer.
+
+1.7.2.0:
+- Added Unity 2017.1 support.
+
+1.7.1.2:
+Visual Studio extension:
+- Fixed error messages in Unity Scripting Reference window on Unity 5.6.1p1.
+
+1.7.1.1:
+Unity tool:
+- Fixed crash on Unity 5.6.1p1.
+
+1.7.1.0:
+Unity tool:
+- Improved Unity 5.6 support.
+- Fixed occasional error messages in console when Visual Studio Tools for Unity are used.
+
+Visual Studio extension:
+- Fixed warning about possible incompatibility when installing into Visual Studio 2017.
+- uIntelliSense now requires Internet Explorer 9 or newer to be installed.
+
+1.7.0.0:
+Unity tool:
+- Unity 5.5 support.
+- Fixed documentation data not being updated when Visual Studio Tools for Unity is used.
+- Added support for EditorTestsRunner and HoloLens documentation.
+- Added "Generate Narrow Tooltips" option that limits the size of a single tooltip line. Useful for Visual Studio.
+- Minor fixes and improvements.
+
+Visual Studio extension:
+- Preliminary Visual Studio 2017 support.
+- Improved Quick Search performance and accuracy.
+
+1.6.0.4:
+Unity tool:
+- Unity 5.4b10 support.
+
+1.6.0.3:
+Unity tool:
+- Fixed UnauthorizedAccessException on OS X El Capitan.
+
+1.6.0.2:
+Unity tool:
+- Fixed file operations failing when Unity was started with administrator rights.
+
+1.6.0.1:
+Visual Studio extension:
+- Minor Quick Search fixes.
+
+1.6.0:
+Unity tool:
+- Added support for Unity IAP and Unity Ads documentation.
+- Preliminary support for Unity Linux Editor.
+- Menu items are now in a separate .cs file for customizability.
+- Fixed original IntelliSense XML files not backing up properly on Unity 5.2+.
+- Minor fixes and improvements.
+
+Visual Studio extension:
+- Added Unity message methods icons for AssetPostprocessor, AssetModificationProcessor, ScriptableWizard.
+- Fixed error spam when not able to retrieve the base class of the class.
+- Fixed Unity message methods with parameters of Unity types being unavailable.
+- Fixed "Open In Scripting Reference" not working in Visual Studio 2012 and 2013 for Unity message methods.
+- Improved Quick Search ranking algorithm.
+- Minor fixes and improvements.
+
+1.5.1:
+Visual Studio extension:
+- Fixed Unity message methods with parameters of Unity types being unavailable.
+- Fixed Ctrl+' not working again after being used on non-Unity symbol.
+
+1.5.0:
+Unity tool:
+- Improved compatibility with Unity 5.2.
+- Parsing improvements, generates cleaner data now.
+- Greatly improved handling of UAC on Windows and users with limited access on OS X.
+- Fixed "Uninstall uIntelliSense data" button always being enabled on Unity 5.1 and newer.
+- Original documentation data is now automatically backed up when generating uIntelliSense documentation and restored when deleting (Unity 5.1 and newer).
+- Fixed error message spam caused by Visual Studio locking the documentation data files when Visual Studio Tools for Unity is used.
+- Fixed being unable to install documentation data if current project had path with Unicode symbols in it.
+- Generally better handling of errors and some edge cases.
+
+Visual Studio extension:
+- Fixed invisible labels in extension settings.
+- Fixed crash when opening a document that has no path.
+- Automatically scale the Quick View window according to system DPI settings.
+- Added support for Back/Forward mouse buttons and Ctrl+Left/Right Arrow in the Quick View tool window for navigation.
+- Quick View window cant now be used as a drag-n-drop target.
+- Fixed some color scheme issues in Quick View tool window.
+- Fixed infinite loop when base class of the class that is currently edited couldnt be detected.
+- Added MonoBehaviour.OnTransformParentChanged and MonoBehaviour.OnTransformChildrenChanged to the list of message methods.
+- "Open In Scripting Reference" now works with Unity message methods.
+- "Open In Scripting Reference" now opens type documentation if no documentation for constructor was found.
+- Added "Default zoom" value to the settings, allows setting the initial zoom in Quick View tool window.
+- Increased search results count limit from 50 to 75 in Quick Search.
+- Performance improvements.
+
+1.4.3:
+- Fixed Unity 5.1 compatibility issues.
+- Added support for UNet and Analytics documentation.
+- Stability improvements in Visual Studio Extension.
+
+1.4.2:
+- Fixed Unity 5.0.1 compatibility issue.
+- Fixed a regression in Visual Studio Extension that made default Internet Explorer context menu show up instead of a custom one in Quick View window.
+- Stability improvements in Visual Studio Extension.
+
+1.4.1:
+- Fixed an issue that lead to some files not being copied when UAC is active.
+
+1.4.0:
+- Improved Unity 5 support.
+- Added downloading of .NET classes documentation for OS X.
+- Added theme support for Visual Studio Extension. It automatically adapts for the current Visual Studio theme.
+- Visual Studio Extension now saves the scrolling position when navigating in history or refreshing the page.
+- Improved operation of Visual Studio Extension when working on projects generated by Visual Studio Tools for Unity.
+- Removed navigation sounds in Visual Studio Extension when Internet Explorer 8 is installed in the system.
+- Adjusted security policy, Internet Explorer information bar should not appear anymore.
+- Stability improvements.
+
+1.3.0.3:
+- Stability improvements.
+
+1.3.0.2:
+- Added support for using Visual Studio Tools for Unity with Visual Studio in a virtual machine on OS X.
+
+1.3.0.1
+- Fixed a rare crash in Visual Studio Extension when parsing page without Boo examples.
+
+1.3.0
+- Improved documentation parsing and generation.
+- Improved UI workflow of Visual Studio Extension.
+- Fixed some rare crashes in Visual Studio Extension.
+- Fixed Visual Studio Extension crashing when Internet Explorer 8 was used in the system.
+- Fixed a possible crash on Unity 4.5.
+
+1.2.0.1:
+- Fixed an exception when trying to generate documentation data on Unity 4.5.
+
+1.2.0:
+- Major parsing improvements. Much more data is now retrieved.
+- Added Visual Studio extension with various documentation-related features.
+- Added "exception" and "seealso" elements support in XML documentation data.
+- Improved "see" element handling.
+- Added an option to uninstall uIntelliSense data.
+- Improved compatibility with User Access Control on Windows.
+- UI improvements.
+- Major internal code improvements for better operation.
+
+1.1.2:
+- Fixed a rare NullReferenceException on OS X.
+
+1.1.1:
+- Minor interface fixes and changes.
+
+1.1.0:
+- Added experimental Unity 5 Beta support (tested on Beta 14).
+
+1.0.2:
+- Fixed a rare issue when menu wasn't showing up after importing uIntelliSense into an existing project.
+
+1.0.1:
+- Fixed generator window being shown garbled on some machines.
+- UnityVS compatibility wasn't actually working. This is fixed now.
+- Fixed some minor parsing bugs.
+
+1.0
+- Initial release.

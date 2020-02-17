@@ -1,0 +1,8 @@
+{
+    "name": "Maintainer.Editor",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

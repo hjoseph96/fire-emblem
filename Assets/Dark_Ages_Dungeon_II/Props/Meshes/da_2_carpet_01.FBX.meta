@@ -1,0 +1,118 @@
+fileFormatVersion: 2
+guid: 69b18af359a26f944a2cf91257472253
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Box128
+    100002: Box130
+    100004: Box131
+    100006: //RootNode
+    100008: da_2_carpet_01_01
+    100010: da_2_carpet_01_02
+    100012: da_2_carpet_01_03
+    100014: da_2_carpet_01_04
+    100016: Object132
+    100018: TopoSurface001
+    100020: TopoSurface002
+    100022: TopoSurface003
+    100024: TopoSurface004
+    100026: TopoSurface005
+    100028: TopoSurface006
+    100030: TopoSurface007
+    100032: TopoSurface008
+    100034: TopoSurface009
+    100036: TopoSurface010
+    100038: TopoSurface011
+    100040: TopoSurface012
+    100042: TopoSurface013
+    100044: TopoSurface014
+    400000: Box128
+    400002: Box130
+    400004: Box131
+    400006: //RootNode
+    400008: da_2_carpet_01_01
+    400010: da_2_carpet_01_02
+    400012: da_2_carpet_01_03
+    400014: da_2_carpet_01_04
+    400016: Object132
+    400018: TopoSurface001
+    400020: TopoSurface002
+    400022: TopoSurface003
+    400024: TopoSurface004
+    400026: TopoSurface005
+    400028: TopoSurface006
+    400030: TopoSurface007
+    400032: TopoSurface008
+    400034: TopoSurface009
+    400036: TopoSurface010
+    400038: TopoSurface011
+    400040: TopoSurface012
+    400042: TopoSurface013
+    400044: TopoSurface014
+    2300000: da_2_carpet_01_01
+    2300002: da_2_carpet_01_02
+    2300004: da_2_carpet_01_03
+    2300006: da_2_carpet_01_04
+    3300000: da_2_carpet_01_01
+    3300002: da_2_carpet_01_02
+    3300004: da_2_carpet_01_03
+    3300006: da_2_carpet_01_04
+    4300000: da_2_carpet_01_04
+    4300002: da_2_carpet_01_03
+    4300004: da_2_carpet_01_02
+    4300006: da_2_carpet_01_01
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

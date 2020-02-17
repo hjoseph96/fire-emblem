@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Other
+  - Land Obstacle
+  - Air Obstacle
+  - CameraPosition
+  - particle
+  - Grid
+  - Weapon Spawn Point
+  - Casting Circle Target
+  - Projectile Launch Point
+  - Projectile Target
+  - Hit Collider
+  - Damage Collider
+  - Casting Circle
+  - Magic On Target
+  - Magic Area Effect
+  - Sword
+  - Magic Projectile
+  - Arrow
+  - Axe
+  - Lance
+  - Staff Effect
+  - Projectile
+  - Critical Damage Collider
+  - Bow
+  - Arrow Spawn Point
+  - Grimiore
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Terrain
+  - Grid
+  - ImpassibleTerrain
+  - Entity
+  - MapFX
+  - 
+  - BattlerTerrain
+  - Battle Entity
+  - Battle Weapon
+  - Battle FX
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
